@@ -30,6 +30,7 @@ class _HomePageState extends State<HomePage> {
       // called again, and so nothing would appear to happen.
       _counter++;
     });
+    Navigator.pushNamed(context, '/parties/new');
   }
 
   @override
