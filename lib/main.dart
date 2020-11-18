@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
       initialRoute: '/',
       routes: <String, WidgetBuilder>{
         '/': (BuildContext context) => HomePage(title: 'Drinking Alert'),
-        '/parties/new': (BuildContext context) => NewPage(),
+        '/parties/new': (BuildContext context) => NewPage(title: 'New'),
       },
     );
   }
